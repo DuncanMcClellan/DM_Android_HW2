@@ -48,121 +48,77 @@ public class MainActivity extends AppCompatActivity {
         btn_1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                if(first){
-                    edit1.setText("1");
-                }else{
-                    edit1.setText(edit1.getText() + "1");
-                }
+                edit1.setText(edit1.getText() + "1");
             }
         });
 
         btn_2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                if(first){
-                    edit1.setText("2");
-                }else{
-                    edit1.setText(edit1.getText() + "2");
-                }
+                edit1.setText(edit1.getText() + "2");
             }
         });
 
         btn_3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                if(first){
-                    edit1.setText("3");
-                }else{
-                    edit1.setText(edit1.getText() + "3");
-                }
+                edit1.setText(edit1.getText() + "3");
             }
         });
 
         btn_4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                if(first){
-                    edit1.setText("4");
-                }else{
-                    edit1.setText(edit1.getText() + "4");
-                }
+                edit1.setText(edit1.getText() + "4");
             }
         });
 
         btn_5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                if(first){
-                    edit1.setText("5");
-                }else{
-                    edit1.setText(edit1.getText() + "5");
-                }
+                edit1.setText(edit1.getText() + "5");
             }
         });
 
         btn_6.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                if(first){
-                    edit1.setText("6");
-                }else{
-                    edit1.setText(edit1.getText() + "6");
-                }
+                edit1.setText(edit1.getText() + "6");
             }
         });
 
         btn_7.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                if(first){
-                    edit1.setText("7");
-                }else{
-                    edit1.setText(edit1.getText() + "7");
-                }
+                edit1.setText(edit1.getText() + "7");
             }
         });
 
         btn_8.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                if(first){
-                    edit1.setText("8");
-                }else{
-                    edit1.setText(edit1.getText() + "8");
-                }
+                edit1.setText(edit1.getText() + "8");
             }
         });
 
         btn_9.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                if(first){
-                    edit1.setText("9");
-                }else{
-                    edit1.setText(edit1.getText() + "9");
-                }
+                edit1.setText(edit1.getText() + "9");
             }
         });
 
         btn_0.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                if(first){
-                    edit1.setText("0");
-                }else{
-                    edit1.setText(edit1.getText() + "0");
-                }
+                edit1.setText(edit1.getText() + "0");
             }
         });
 
         btn_dec.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                if(first){
-                    edit1.setText("0.");
-                }else{
-                    edit1.setText(edit1.getText() + ".");
-                }
+                edit1.setText(edit1.getText() + ".");
             }
         });
 
